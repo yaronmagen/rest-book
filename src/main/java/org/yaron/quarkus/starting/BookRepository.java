@@ -11,7 +11,8 @@ public class BookRepository {
         Book book1 = new Book(1, "1984", "George Orwell", "Dystopian", 1949);
         Book book2 = new Book(2, "To Kill a Mockingbird", "Harper Lee", "Fiction", 1960);
         Book book3 = new Book(3, "The Great Gatsby", "F. Scott Fitzgerald", "Classic", 1925);
-        return List.of(book1, book2, book3);
+        Book book4 = new Book(4, "asdasdasd", "asdasdasd", "asdasdasd", 2023);
+        return List.of(book1, book2, book3, book4);
 
         //return bookService.getAllBooks();
     }
